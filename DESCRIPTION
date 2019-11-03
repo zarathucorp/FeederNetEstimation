@@ -1,0 +1,13 @@
+Package: FeederNetEstimation
+Title: Show 'FeederNet' estimation result with shiny
+Version: 0.0.1
+Authors@R: c(person("Jinseob", "Kim", email = "jinseob2kim@gmail.com", role = c("aut", "cre"),  comment = c(ORCID = "0000-0002-9403-605X")),
+             person("Zarathu", role = c("cph", "fnd"))
+             )
+Description: Show FeederNet(https://feedernet.co.kr) estimation result with shiny. 
+License: Apache License 2.0
+Encoding: UTF-8
+LazyData: true
+Imports: shiny, DT, data.table, shinycustomloader, shinyhttr, shinyWidgets, jstable, jsmodule, ggplot2, survival, jskm, zip, htmltools, devEMF, graphics, grDevices
+URL: https://github.com/zarathucorp/FeederNetEstimation
+BugReports: https://github.com/zarathucorp/FeederNetEstimation/issues
