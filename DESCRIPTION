@@ -3,7 +3,7 @@ Title: Show 'FeederNet' estimation result with shiny
 Version: 0.0.1
 Authors@R: c(person("Jinseob", "Kim", email = "jinseob2kim@gmail.com", role = c("aut", "cre"),  comment = c(ORCID = "0000-0002-9403-605X")),
              person("Zarathu", role = c("cph", "fnd")))
-Description: Show FeederNet(https://feedernet.co.kr) estimation result with shiny. 
+Description: Show FeederNet(https://feedernet.co.kr) estimation result with shiny.
 Depends: R (>= 3.4.0)
 License: Apache License 2.0
 Encoding: UTF-8
