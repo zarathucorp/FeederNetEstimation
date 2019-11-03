@@ -5,6 +5,7 @@ Authors@R: c(person("Jinseob", "Kim", email = "jinseob2kim@gmail.com", role = c(
              person("Zarathu", role = c("cph", "fnd"))
              )
 Description: Show FeederNet(https://feedernet.co.kr) estimation result with shiny. 
+Depends: R (>= 3.4.0)
 License: Apache License 2.0
 Encoding: UTF-8
 LazyData: true
