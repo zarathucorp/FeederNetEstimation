@@ -1,0 +1,17 @@
+git clean -fdx
+Removing .Rbuildignore
+Removing .Rhistory
+Removing .Rproj.user/
+Removing .gitignore
+Removing .travis.yml
+Removing DESCRIPTION
+Removing FeederNetEstimation.Rproj
+Removing LICENSE
+Removing NAMESPACE
+Removing README.md
+Removing _pkgdown.yml
+Removing appveyor.yml
+Removing inst/
+]0;/home/js/Rpackages/FeederNetEstimation]0;js@fdca737354ee: ~/Rpackages/FeederNetEstimation[01;32mjs@fdca737354ee[00m:[01;34m~/Rpackages/FeederNetEstimation[00m$ echo "My GitHub Page" > index.html
+]0;/home/js/Rpackages/FeederNetEstimation]0;js@fdca737354ee: ~/Rpackages/FeederNetEstimation[01;32mjs@fdca737354ee[00m:[01;34m~/Rpackages/FeederNetEstimation[00m$ git add .
+]0;/home/js/Rpackages/FeederNetEstimation]0;js@fdca737354ee: ~/Rpackages/FeederNetEstimation[01;32mjs@fdca737354ee[00m:[01;34m~/Rpackages/FeederNetEstimation[00m$ 
