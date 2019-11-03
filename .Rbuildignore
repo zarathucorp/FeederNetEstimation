@@ -1,3 +1,8 @@
 ^FeederNetEstimation\.Rproj$
 ^\.Rproj\.user$
 ^LICENSE$
+^\.travis\.yml$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
+^appveyor\.yml$
