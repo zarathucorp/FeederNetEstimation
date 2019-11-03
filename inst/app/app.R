@@ -887,6 +887,13 @@ server <- function(input, output, session) {
     kmList()$surv.ps
   })
   
+  if (!interactive()) {
+    session$onSessionEnded(function() {
+      stopApp()
+      q("no")
+    })
+  }
+  
 }
 
 
