@@ -11,6 +11,7 @@ Show FeederNet estimation result with shiny
 ```r
 create_app(app_name = "FeederNetEstimation", 
            app_repo_url = "https://github.com/zarathucorp/FeederNetEstimation",
+           app_dir = "/myapp"
            pkgs = c("ggplot2", "DT", "data.table", "jsmodule", "shinycustomloader", "shinyhttr", "shinyWidgets", "zip", "htmltools", "devEMF")
            )
 
