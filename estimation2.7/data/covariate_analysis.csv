@@ -1,0 +1,13 @@
+"covariate_analysis_id","covariate_analysis_name","analysis_id"
+3,"DemographicsAgeGroup",1
+202,"ConditionEraLongTerm",1
+1,"DemographicsGender",1
+2,"DemographicsAge",1
+210,"ConditionGroupEraLongTerm",1
+1,"DemographicsGender",2
+2,"DemographicsAge",2
+3,"DemographicsAgeGroup",3
+202,"ConditionEraLongTerm",3
+1,"DemographicsGender",3
+2,"DemographicsAge",3
+210,"ConditionGroupEraLongTerm",3

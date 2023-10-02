@@ -1,0 +1,792 @@
+"outcome_id","outcome_name","definition"
+661,"Death","{
+  ""ExpressionLimit"": {""Type"": ""First""},
+  ""CollapseSettings"": {
+    ""CollapseType"": ""ERA"",
+    ""EraPad"": 0
+  },
+  ""CensorWindow"": {
+    ""StartDate"": null,
+    ""EndDate"": null
+  },
+  ""ConceptSets"": [],
+  ""cdmVersionRange"": "">=5.0.0"",
+  ""CensoringCriteria"": [],
+  ""QualifiedLimit"": {""Type"": ""First""},
+  ""InclusionRules"": [],
+  ""PrimaryCriteria"": {
+    ""CriteriaList"": [{""Death"": {
+      ""CorrelatedCriteria"": null,
+      ""CodesetId"": null,
+      ""DeathSourceConcept"": null,
+      ""DeathTypeExclude"": false,
+      ""DeathType"": null,
+      ""OccurrenceStartDate"": null,
+      ""Gender"": null,
+      ""Age"": null
+    }}],
+    ""PrimaryCriteriaLimit"": {""Type"": ""First""},
+    ""ObservationWindow"": {
+      ""PostDays"": 0,
+      ""PriorDays"": 0
+    }
+  }
+}"
+662,"Intubation","{
+  ""ExpressionLimit"": {""Type"": ""First""},
+  ""CollapseSettings"": {
+    ""CollapseType"": ""ERA"",
+    ""EraPad"": 0
+  },
+  ""CensorWindow"": {
+    ""StartDate"": null,
+    ""EndDate"": null
+  },
+  ""ConceptSets"": [{
+    ""expression"": {""items"": [
+      {
+        ""isExcluded"": true,
+        ""concept"": {
+          ""INVALID_REASON_CAPTION"": ""Valid"",
+          ""CONCEPT_ID"": 4331311,
+          ""STANDARD_CONCEPT"": ""S"",
+          ""CONCEPT_CODE"": ""2267008"",
+          ""VOCABULARY_ID"": ""SNOMED"",
+          ""CONCEPT_NAME"": ""Changing tracheostomy tube"",
+          ""DOMAIN_ID"": ""Procedure"",
+          ""STANDARD_CONCEPT_CAPTION"": ""Standard"",
+          ""CONCEPT_CLASS_ID"": ""Procedure"",
+          ""INVALID_REASON"": ""V""
+        },
+        ""includeMapped"": false,
+        ""includeDescendants"": false
+      },
+      {
+        ""isExcluded"": true,
+        ""concept"": {
+          ""INVALID_REASON_CAPTION"": ""Valid"",
+          ""CONCEPT_ID"": 4168966,
+          ""STANDARD_CONCEPT"": ""S"",
+          ""CONCEPT_CODE"": ""419991009"",
+          ""VOCABULARY_ID"": ""SNOMED"",
+          ""CONCEPT_NAME"": ""Endotracheal tube present"",
+          ""DOMAIN_ID"": ""Observation"",
+          ""STANDARD_CONCEPT_CAPTION"": ""Standard"",
+          ""CONCEPT_CLASS_ID"": ""Clinical Finding"",
+          ""INVALID_REASON"": ""V""
+        },
+        ""includeMapped"": false,
+        ""includeDescendants"": false
+      },
+      {
+        ""isExcluded"": true,
+        ""concept"": {
+          ""INVALID_REASON_CAPTION"": ""Valid"",
+          ""CONCEPT_ID"": 4337048,
+          ""STANDARD_CONCEPT"": ""S"",
+          ""CONCEPT_CODE"": ""232686001"",
+          ""VOCABULARY_ID"": ""SNOMED"",
+          ""CONCEPT_NAME"": ""Insertion of tracheal T-tube"",
+          ""DOMAIN_ID"": ""Procedure"",
+          ""STANDARD_CONCEPT_CAPTION"": ""Standard"",
+          ""CONCEPT_CLASS_ID"": ""Procedure"",
+          ""INVALID_REASON"": ""V""
+        },
+        ""includeMapped"": false,
+        ""includeDescendants"": false
+      },
+      {
+        ""isExcluded"": true,
+        ""concept"": {
+          ""INVALID_REASON_CAPTION"": ""Valid"",
+          ""CONCEPT_ID"": 4337047,
+          ""STANDARD_CONCEPT"": ""S"",
+          ""CONCEPT_CODE"": ""232685002"",
+          ""VOCABULARY_ID"": ""SNOMED"",
+          ""CONCEPT_NAME"": ""Insertion of tracheostomy tube"",
+          ""DOMAIN_ID"": ""Procedure"",
+          ""STANDARD_CONCEPT_CAPTION"": ""Standard"",
+          ""CONCEPT_CLASS_ID"": ""Procedure"",
+          ""INVALID_REASON"": ""V""
+        },
+        ""includeMapped"": false,
+        ""includeDescendants"": false
+      },
+      {
+        ""isExcluded"": false,
+        ""concept"": {
+          ""INVALID_REASON_CAPTION"": ""Valid"",
+          ""CONCEPT_ID"": 40487536,
+          ""STANDARD_CONCEPT"": ""S"",
+          ""CONCEPT_CODE"": ""447996002"",
+          ""VOCABULARY_ID"": ""SNOMED"",
+          ""CONCEPT_NAME"": ""Intubation of respiratory tract"",
+          ""DOMAIN_ID"": ""Procedure"",
+          ""STANDARD_CONCEPT_CAPTION"": ""Standard"",
+          ""CONCEPT_CLASS_ID"": ""Procedure"",
+          ""INVALID_REASON"": ""V""
+        },
+        ""includeMapped"": false,
+        ""includeDescendants"": true
+      },
+      {
+        ""isExcluded"": true,
+        ""concept"": {
+          ""INVALID_REASON_CAPTION"": ""Valid"",
+          ""CONCEPT_ID"": 4337046,
+          ""STANDARD_CONCEPT"": ""S"",
+          ""CONCEPT_CODE"": ""232684003"",
+          ""VOCABULARY_ID"": ""SNOMED"",
+          ""CONCEPT_NAME"": ""Minitrach insertion"",
+          ""DOMAIN_ID"": ""Procedure"",
+          ""STANDARD_CONCEPT_CAPTION"": ""Standard"",
+          ""CONCEPT_CLASS_ID"": ""Procedure"",
+          ""INVALID_REASON"": ""V""
+        },
+        ""includeMapped"": false,
+        ""includeDescendants"": false
+      },
+      {
+        ""isExcluded"": true,
+        ""concept"": {
+          ""INVALID_REASON_CAPTION"": ""Valid"",
+          ""CONCEPT_ID"": 4149878,
+          ""STANDARD_CONCEPT"": ""S"",
+          ""CONCEPT_CODE"": ""30963003"",
+          ""VOCABULARY_ID"": ""SNOMED"",
+          ""CONCEPT_NAME"": ""Transglottic catheterization of trachea"",
+          ""DOMAIN_ID"": ""Procedure"",
+          ""STANDARD_CONCEPT_CAPTION"": ""Standard"",
+          ""CONCEPT_CLASS_ID"": ""Procedure"",
+          ""INVALID_REASON"": ""V""
+        },
+        ""includeMapped"": false,
+        ""includeDescendants"": false
+      }
+    ]},
+    ""name"": ""Intubation"",
+    ""id"": 0
+  }],
+  ""cdmVersionRange"": "">=5.0.0"",
+  ""CensoringCriteria"": [],
+  ""QualifiedLimit"": {""Type"": ""First""},
+  ""InclusionRules"": [],
+  ""PrimaryCriteria"": {
+    ""CriteriaList"": [{""ProcedureOccurrence"": {
+      ""ProcedureType"": null,
+      ""CorrelatedCriteria"": null,
+      ""CodesetId"": 0,
+      ""ProcedureSourceConcept"": null,
+      ""Quantity"": null,
+      ""ProviderSpecialty"": null,
+      ""Gender"": null,
+      ""ProcedureTypeExclude"": false,
+      ""VisitType"": null,
+      ""First"": null,
+      ""OccurrenceStartDate"": null,
+      ""Modifier"": null,
+      ""Age"": null
+    }}],
+    ""PrimaryCriteriaLimit"": {""Type"": ""First""},
+    ""ObservationWindow"": {
+      ""PostDays"": 0,
+      ""PriorDays"": 0
+    }
+  }
+}"
+681,"ECMO (1)","{
+  ""ExpressionLimit"": {""Type"": ""First""},
+  ""CollapseSettings"": {
+    ""CollapseType"": ""ERA"",
+    ""EraPad"": 0
+  },
+  ""CensorWindow"": {
+    ""StartDate"": null,
+    ""EndDate"": null
+  },
+  ""ConceptSets"": [{
+    ""expression"": {""items"": [
+      {
+        ""isExcluded"": true,
+        ""concept"": {
+          ""INVALID_REASON_CAPTION"": ""Valid"",
+          ""CONCEPT_ID"": 4086916,
+          ""STANDARD_CONCEPT"": ""S"",
+          ""CONCEPT_CODE"": ""243781005"",
+          ""VOCABULARY_ID"": ""SNOMED"",
+          ""CONCEPT_NAME"": ""Blood sampling from ECMO circuit"",
+          ""DOMAIN_ID"": ""Procedure"",
+          ""STANDARD_CONCEPT_CAPTION"": ""Standard"",
+          ""CONCEPT_CLASS_ID"": ""Procedure"",
+          ""INVALID_REASON"": ""V""
+        },
+        ""includeMapped"": false,
+        ""includeDescendants"": false
+      },
+      {
+        ""isExcluded"": false,
+        ""concept"": {
+          ""INVALID_REASON_CAPTION"": ""Valid"",
+          ""CONCEPT_ID"": 4338595,
+          ""STANDARD_CONCEPT"": ""S"",
+          ""CONCEPT_CODE"": ""232969009"",
+          ""VOCABULARY_ID"": ""SNOMED"",
+          ""CONCEPT_NAME"": ""Cardiac support using extracorporeal membrane oxygenation circuitry"",
+          ""DOMAIN_ID"": ""Procedure"",
+          ""STANDARD_CONCEPT_CAPTION"": ""Standard"",
+          ""CONCEPT_CLASS_ID"": ""Procedure"",
+          ""INVALID_REASON"": ""V""
+        },
+        ""includeMapped"": false,
+        ""includeDescendants"": true
+      },
+      {
+        ""isExcluded"": false,
+        ""concept"": {
+          ""INVALID_REASON_CAPTION"": ""Valid"",
+          ""CONCEPT_ID"": 4052536,
+          ""STANDARD_CONCEPT"": ""S"",
+          ""CONCEPT_CODE"": ""233573008"",
+          ""VOCABULARY_ID"": ""SNOMED"",
+          ""CONCEPT_NAME"": ""Extracorporeal membrane oxygenation"",
+          ""DOMAIN_ID"": ""Procedure"",
+          ""STANDARD_CONCEPT_CAPTION"": ""Standard"",
+          ""CONCEPT_CLASS_ID"": ""Procedure"",
+          ""INVALID_REASON"": ""V""
+        },
+        ""includeMapped"": false,
+        ""includeDescendants"": true
+      }
+    ]},
+    ""name"": ""ECMO"",
+    ""id"": 1
+  }],
+  ""cdmVersionRange"": "">=5.0.0"",
+  ""CensoringCriteria"": [],
+  ""QualifiedLimit"": {""Type"": ""First""},
+  ""InclusionRules"": [],
+  ""PrimaryCriteria"": {
+    ""CriteriaList"": [{""ProcedureOccurrence"": {
+      ""ProcedureType"": null,
+      ""CorrelatedCriteria"": null,
+      ""CodesetId"": 1,
+      ""ProcedureSourceConcept"": null,
+      ""Quantity"": null,
+      ""ProviderSpecialty"": null,
+      ""Gender"": null,
+      ""ProcedureTypeExclude"": false,
+      ""VisitType"": null,
+      ""First"": null,
+      ""OccurrenceStartDate"": null,
+      ""Modifier"": null,
+      ""Age"": null
+    }}],
+    ""PrimaryCriteriaLimit"": {""Type"": ""First""},
+    ""ObservationWindow"": {
+      ""PostDays"": 0,
+      ""PriorDays"": 0
+    }
+  }
+}"
+663,"Ventilator care","{
+  ""ExpressionLimit"": {""Type"": ""First""},
+  ""CollapseSettings"": {
+    ""CollapseType"": ""ERA"",
+    ""EraPad"": 0
+  },
+  ""CensorWindow"": {
+    ""StartDate"": null,
+    ""EndDate"": null
+  },
+  ""ConceptSets"": [{
+    ""expression"": {""items"": [
+      {
+        ""isExcluded"": false,
+        ""concept"": {
+          ""INVALID_REASON_CAPTION"": ""Valid"",
+          ""CONCEPT_ID"": 4230167,
+          ""STANDARD_CONCEPT"": ""S"",
+          ""CONCEPT_CODE"": ""40617009"",
+          ""VOCABULARY_ID"": ""SNOMED"",
+          ""CONCEPT_NAME"": ""Artificial respiration"",
+          ""DOMAIN_ID"": ""Procedure"",
+          ""STANDARD_CONCEPT_CAPTION"": ""Standard"",
+          ""CONCEPT_CLASS_ID"": ""Procedure"",
+          ""INVALID_REASON"": ""V""
+        },
+        ""includeMapped"": false,
+        ""includeDescendants"": true
+      },
+      {
+        ""isExcluded"": false,
+        ""concept"": {
+          ""INVALID_REASON_CAPTION"": ""Valid"",
+          ""CONCEPT_ID"": 4031379,
+          ""STANDARD_CONCEPT"": ""S"",
+          ""CONCEPT_CODE"": ""129896002"",
+          ""VOCABULARY_ID"": ""SNOMED"",
+          ""CONCEPT_NAME"": ""Artificial ventilation finding"",
+          ""DOMAIN_ID"": ""Condition"",
+          ""STANDARD_CONCEPT_CAPTION"": ""Standard"",
+          ""CONCEPT_CLASS_ID"": ""Clinical Finding"",
+          ""INVALID_REASON"": ""V""
+        },
+        ""includeMapped"": false,
+        ""includeDescendants"": false
+      },
+      {
+        ""isExcluded"": true,
+        ""concept"": {
+          ""INVALID_REASON_CAPTION"": ""Valid"",
+          ""CONCEPT_ID"": 40481547,
+          ""STANDARD_CONCEPT"": ""S"",
+          ""CONCEPT_CODE"": ""444932008"",
+          ""VOCABULARY_ID"": ""SNOMED"",
+          ""CONCEPT_NAME"": ""Dependence on ventilator"",
+          ""DOMAIN_ID"": ""Condition"",
+          ""STANDARD_CONCEPT_CAPTION"": ""Standard"",
+          ""CONCEPT_CLASS_ID"": ""Clinical Finding"",
+          ""INVALID_REASON"": ""V""
+        },
+        ""includeMapped"": false,
+        ""includeDescendants"": false
+      },
+      {
+        ""isExcluded"": false,
+        ""concept"": {
+          ""INVALID_REASON_CAPTION"": ""Valid"",
+          ""CONCEPT_ID"": 4080957,
+          ""STANDARD_CONCEPT"": ""S"",
+          ""CONCEPT_CODE"": ""182686001"",
+          ""VOCABULARY_ID"": ""SNOMED"",
+          ""CONCEPT_NAME"": ""Endotracheal respiratory assistance"",
+          ""DOMAIN_ID"": ""Procedure"",
+          ""STANDARD_CONCEPT_CAPTION"": ""Standard"",
+          ""CONCEPT_CLASS_ID"": ""Procedure"",
+          ""INVALID_REASON"": ""V""
+        },
+        ""includeMapped"": false,
+        ""includeDescendants"": true
+      },
+      {
+        ""isExcluded"": true,
+        ""concept"": {
+          ""INVALID_REASON_CAPTION"": ""Valid"",
+          ""CONCEPT_ID"": 4348300,
+          ""STANDARD_CONCEPT"": ""S"",
+          ""CONCEPT_CODE"": ""243180002"",
+          ""VOCABULARY_ID"": ""SNOMED"",
+          ""CONCEPT_NAME"": ""Expired air ventilation"",
+          ""DOMAIN_ID"": ""Procedure"",
+          ""STANDARD_CONCEPT_CAPTION"": ""Standard"",
+          ""CONCEPT_CLASS_ID"": ""Procedure"",
+          ""INVALID_REASON"": ""V""
+        },
+        ""includeMapped"": false,
+        ""includeDescendants"": false
+      },
+      {
+        ""isExcluded"": true,
+        ""concept"": {
+          ""INVALID_REASON_CAPTION"": ""Valid"",
+          ""CONCEPT_ID"": 4021786,
+          ""STANDARD_CONCEPT"": ""S"",
+          ""CONCEPT_CODE"": ""225627007"",
+          ""VOCABULARY_ID"": ""SNOMED"",
+          ""CONCEPT_NAME"": ""Fear of disconnection from ventilator"",
+          ""DOMAIN_ID"": ""Condition"",
+          ""STANDARD_CONCEPT_CAPTION"": ""Standard"",
+          ""CONCEPT_CLASS_ID"": ""Clinical Finding"",
+          ""INVALID_REASON"": ""V""
+        },
+        ""includeMapped"": false,
+        ""includeDescendants"": false
+      },
+      {
+        ""isExcluded"": false,
+        ""concept"": {
+          ""INVALID_REASON_CAPTION"": ""Valid"",
+          ""CONCEPT_ID"": 4232550,
+          ""STANDARD_CONCEPT"": ""S"",
+          ""CONCEPT_CODE"": ""439887005"",
+          ""VOCABULARY_ID"": ""SNOMED"",
+          ""CONCEPT_NAME"": ""Home visit for mechanical ventilation care"",
+          ""DOMAIN_ID"": ""Observation"",
+          ""STANDARD_CONCEPT_CAPTION"": ""Standard"",
+          ""CONCEPT_CLASS_ID"": ""Procedure"",
+          ""INVALID_REASON"": ""V""
+        },
+        ""includeMapped"": false,
+        ""includeDescendants"": true
+      },
+      {
+        ""isExcluded"": false,
+        ""concept"": {
+          ""INVALID_REASON_CAPTION"": ""Valid"",
+          ""CONCEPT_ID"": 4235361,
+          ""STANDARD_CONCEPT"": ""S"",
+          ""CONCEPT_CODE"": ""438603002"",
+          ""VOCABULARY_ID"": ""SNOMED"",
+          ""CONCEPT_NAME"": ""Hyperventilation therapy for traumatic brain injury"",
+          ""DOMAIN_ID"": ""Procedure"",
+          ""STANDARD_CONCEPT_CAPTION"": ""Standard"",
+          ""CONCEPT_CLASS_ID"": ""Procedure"",
+          ""INVALID_REASON"": ""V""
+        },
+        ""includeMapped"": false,
+        ""includeDescendants"": true
+      },
+      {
+        ""isExcluded"": true,
+        ""concept"": {
+          ""INVALID_REASON_CAPTION"": ""Valid"",
+          ""CONCEPT_ID"": 4107247,
+          ""STANDARD_CONCEPT"": ""S"",
+          ""CONCEPT_CODE"": ""30050007"",
+          ""VOCABULARY_ID"": ""SNOMED"",
+          ""CONCEPT_NAME"": ""Inhalation anesthesia, machine system, semi-closed, no rebreathing of primary agent"",
+          ""DOMAIN_ID"": ""Procedure"",
+          ""STANDARD_CONCEPT_CAPTION"": ""Standard"",
+          ""CONCEPT_CLASS_ID"": ""Procedure"",
+          ""INVALID_REASON"": ""V""
+        },
+        ""includeMapped"": false,
+        ""includeDescendants"": false
+      },
+      {
+        ""isExcluded"": true,
+        ""concept"": {
+          ""INVALID_REASON_CAPTION"": ""Valid"",
+          ""CONCEPT_ID"": 2745440,
+          ""STANDARD_CONCEPT"": ""S"",
+          ""CONCEPT_CODE"": ""0BH13EZ"",
+          ""VOCABULARY_ID"": ""ICD10PCS"",
+          ""CONCEPT_NAME"": ""Insertion of Endotracheal Airway into Trachea, Percutaneous Approach"",
+          ""DOMAIN_ID"": ""Procedure"",
+          ""STANDARD_CONCEPT_CAPTION"": ""Standard"",
+          ""CONCEPT_CLASS_ID"": ""ICD10PCS"",
+          ""INVALID_REASON"": ""V""
+        },
+        ""includeMapped"": false,
+        ""includeDescendants"": false
+      },
+      {
+        ""isExcluded"": true,
+        ""concept"": {
+          ""INVALID_REASON_CAPTION"": ""Valid"",
+          ""CONCEPT_ID"": 2745444,
+          ""STANDARD_CONCEPT"": ""S"",
+          ""CONCEPT_CODE"": ""0BH17EZ"",
+          ""VOCABULARY_ID"": ""ICD10PCS"",
+          ""CONCEPT_NAME"": ""Insertion of Endotracheal Airway into Trachea, Via Natural or Artificial Opening"",
+          ""DOMAIN_ID"": ""Procedure"",
+          ""STANDARD_CONCEPT_CAPTION"": ""Standard"",
+          ""CONCEPT_CLASS_ID"": ""ICD10PCS"",
+          ""INVALID_REASON"": ""V""
+        },
+        ""includeMapped"": false,
+        ""includeDescendants"": false
+      },
+      {
+        ""isExcluded"": true,
+        ""concept"": {
+          ""INVALID_REASON_CAPTION"": ""Valid"",
+          ""CONCEPT_ID"": 2745447,
+          ""STANDARD_CONCEPT"": ""S"",
+          ""CONCEPT_CODE"": ""0BH18EZ"",
+          ""VOCABULARY_ID"": ""ICD10PCS"",
+          ""CONCEPT_NAME"": ""Insertion of Endotracheal Airway into Trachea, Via Natural or Artificial Opening Endoscopic"",
+          ""DOMAIN_ID"": ""Procedure"",
+          ""STANDARD_CONCEPT_CAPTION"": ""Standard"",
+          ""CONCEPT_CLASS_ID"": ""ICD10PCS"",
+          ""INVALID_REASON"": ""V""
+        },
+        ""includeMapped"": false,
+        ""includeDescendants"": false
+      },
+      {
+        ""isExcluded"": false,
+        ""concept"": {
+          ""INVALID_REASON_CAPTION"": ""Valid"",
+          ""CONCEPT_ID"": 4332501,
+          ""STANDARD_CONCEPT"": ""S"",
+          ""CONCEPT_CODE"": ""430191008"",
+          ""VOCABULARY_ID"": ""SNOMED"",
+          ""CONCEPT_NAME"": ""Management of noninvasive mechanical ventilation"",
+          ""DOMAIN_ID"": ""Procedure"",
+          ""STANDARD_CONCEPT_CAPTION"": ""Standard"",
+          ""CONCEPT_CLASS_ID"": ""Procedure"",
+          ""INVALID_REASON"": ""V""
+        },
+        ""includeMapped"": false,
+        ""includeDescendants"": true
+      },
+      {
+        ""isExcluded"": false,
+        ""concept"": {
+          ""INVALID_REASON_CAPTION"": ""Valid"",
+          ""CONCEPT_ID"": 37206832,
+          ""STANDARD_CONCEPT"": ""S"",
+          ""CONCEPT_CODE"": ""787180006"",
+          ""VOCABULARY_ID"": ""SNOMED"",
+          ""CONCEPT_NAME"": ""Mechanical insufflation exsufflation"",
+          ""DOMAIN_ID"": ""Procedure"",
+          ""STANDARD_CONCEPT_CAPTION"": ""Standard"",
+          ""CONCEPT_CLASS_ID"": ""Procedure"",
+          ""INVALID_REASON"": ""V""
+        },
+        ""includeMapped"": false,
+        ""includeDescendants"": true
+      },
+      {
+        ""isExcluded"": false,
+        ""concept"": {
+          ""INVALID_REASON_CAPTION"": ""Valid"",
+          ""CONCEPT_ID"": 4232891,
+          ""STANDARD_CONCEPT"": ""S"",
+          ""CONCEPT_CODE"": ""404997003"",
+          ""VOCABULARY_ID"": ""SNOMED"",
+          ""CONCEPT_NAME"": ""Mechanical ventilation response"",
+          ""DOMAIN_ID"": ""Observation"",
+          ""STANDARD_CONCEPT_CAPTION"": ""Standard"",
+          ""CONCEPT_CLASS_ID"": ""Observable Entity"",
+          ""INVALID_REASON"": ""V""
+        },
+        ""includeMapped"": false,
+        ""includeDescendants"": false
+      },
+      {
+        ""isExcluded"": false,
+        ""concept"": {
+          ""INVALID_REASON_CAPTION"": ""Valid"",
+          ""CONCEPT_ID"": 44509482,
+          ""STANDARD_CONCEPT"": ""S"",
+          ""CONCEPT_CODE"": ""E85.8"",
+          ""VOCABULARY_ID"": ""OPCS4"",
+          ""CONCEPT_NAME"": ""Other specified ventilation support"",
+          ""DOMAIN_ID"": ""Procedure"",
+          ""STANDARD_CONCEPT_CAPTION"": ""Standard"",
+          ""CONCEPT_CLASS_ID"": ""Procedure"",
+          ""INVALID_REASON"": ""V""
+        },
+        ""includeMapped"": false,
+        ""includeDescendants"": true
+      },
+      {
+        ""isExcluded"": true,
+        ""concept"": {
+          ""INVALID_REASON_CAPTION"": ""Valid"",
+          ""CONCEPT_ID"": 4219858,
+          ""STANDARD_CONCEPT"": ""S"",
+          ""CONCEPT_CODE"": ""397846002"",
+          ""VOCABULARY_ID"": ""SNOMED"",
+          ""CONCEPT_NAME"": ""Problem with patient ventilator"",
+          ""DOMAIN_ID"": ""Observation"",
+          ""STANDARD_CONCEPT_CAPTION"": ""Standard"",
+          ""CONCEPT_CLASS_ID"": ""Clinical Finding"",
+          ""INVALID_REASON"": ""V""
+        },
+        ""includeMapped"": false,
+        ""includeDescendants"": false
+      },
+      {
+        ""isExcluded"": true,
+        ""concept"": {
+          ""INVALID_REASON_CAPTION"": ""Valid"",
+          ""CONCEPT_ID"": 44808555,
+          ""STANDARD_CONCEPT"": ""S"",
+          ""CONCEPT_CODE"": ""859311000000101"",
+          ""VOCABULARY_ID"": ""SNOMED"",
+          ""CONCEPT_NAME"": ""Provision of mechanical ventilator"",
+          ""DOMAIN_ID"": ""Procedure"",
+          ""STANDARD_CONCEPT_CAPTION"": ""Standard"",
+          ""CONCEPT_CLASS_ID"": ""Procedure"",
+          ""INVALID_REASON"": ""V""
+        },
+        ""includeMapped"": false,
+        ""includeDescendants"": false
+      },
+      {
+        ""isExcluded"": true,
+        ""concept"": {
+          ""INVALID_REASON_CAPTION"": ""Valid"",
+          ""CONCEPT_ID"": 4006318,
+          ""STANDARD_CONCEPT"": ""S"",
+          ""CONCEPT_CODE"": ""11140008"",
+          ""VOCABULARY_ID"": ""SNOMED"",
+          ""CONCEPT_NAME"": ""Respiratory assist, manual"",
+          ""DOMAIN_ID"": ""Procedure"",
+          ""STANDARD_CONCEPT_CAPTION"": ""Standard"",
+          ""CONCEPT_CLASS_ID"": ""Procedure"",
+          ""INVALID_REASON"": ""V""
+        },
+        ""includeMapped"": false,
+        ""includeDescendants"": false
+      },
+      {
+        ""isExcluded"": true,
+        ""concept"": {
+          ""INVALID_REASON_CAPTION"": ""Valid"",
+          ""CONCEPT_ID"": 4254108,
+          ""STANDARD_CONCEPT"": ""S"",
+          ""CONCEPT_CODE"": ""74596007"",
+          ""VOCABULARY_ID"": ""SNOMED"",
+          ""CONCEPT_NAME"": ""Resuscitation with artificial respiration"",
+          ""DOMAIN_ID"": ""Procedure"",
+          ""STANDARD_CONCEPT_CAPTION"": ""Standard"",
+          ""CONCEPT_CLASS_ID"": ""Procedure"",
+          ""INVALID_REASON"": ""V""
+        },
+        ""includeMapped"": false,
+        ""includeDescendants"": false
+      },
+      {
+        ""isExcluded"": false,
+        ""concept"": {
+          ""INVALID_REASON_CAPTION"": ""Valid"",
+          ""CONCEPT_ID"": 4237618,
+          ""STANDARD_CONCEPT"": ""S"",
+          ""CONCEPT_CODE"": ""409025002"",
+          ""VOCABULARY_ID"": ""SNOMED"",
+          ""CONCEPT_NAME"": ""Ventilator care"",
+          ""DOMAIN_ID"": ""Observation"",
+          ""STANDARD_CONCEPT_CAPTION"": ""Standard"",
+          ""CONCEPT_CLASS_ID"": ""Procedure"",
+          ""INVALID_REASON"": ""V""
+        },
+        ""includeMapped"": false,
+        ""includeDescendants"": true
+      },
+      {
+        ""isExcluded"": true,
+        ""concept"": {
+          ""INVALID_REASON_CAPTION"": ""Valid"",
+          ""CONCEPT_ID"": 4259233,
+          ""STANDARD_CONCEPT"": ""S"",
+          ""CONCEPT_CODE"": ""410208007"",
+          ""VOCABULARY_ID"": ""SNOMED"",
+          ""CONCEPT_NAME"": ""Ventilator care assessment"",
+          ""DOMAIN_ID"": ""Procedure"",
+          ""STANDARD_CONCEPT_CAPTION"": ""Standard"",
+          ""CONCEPT_CLASS_ID"": ""Procedure"",
+          ""INVALID_REASON"": ""V""
+        },
+        ""includeMapped"": false,
+        ""includeDescendants"": false
+      },
+      {
+        ""isExcluded"": true,
+        ""concept"": {
+          ""INVALID_REASON_CAPTION"": ""Valid"",
+          ""CONCEPT_ID"": 4254905,
+          ""STANDARD_CONCEPT"": ""S"",
+          ""CONCEPT_CODE"": ""410209004"",
+          ""VOCABULARY_ID"": ""SNOMED"",
+          ""CONCEPT_NAME"": ""Ventilator care education"",
+          ""DOMAIN_ID"": ""Procedure"",
+          ""STANDARD_CONCEPT_CAPTION"": ""Standard"",
+          ""CONCEPT_CLASS_ID"": ""Procedure"",
+          ""INVALID_REASON"": ""V""
+        },
+        ""includeMapped"": false,
+        ""includeDescendants"": false
+      },
+      {
+        ""isExcluded"": false,
+        ""concept"": {
+          ""INVALID_REASON_CAPTION"": ""Valid"",
+          ""CONCEPT_ID"": 4251737,
+          ""STANDARD_CONCEPT"": ""S"",
+          ""CONCEPT_CODE"": ""410210009"",
+          ""VOCABULARY_ID"": ""SNOMED"",
+          ""CONCEPT_NAME"": ""Ventilator care management"",
+          ""DOMAIN_ID"": ""Procedure"",
+          ""STANDARD_CONCEPT_CAPTION"": ""Standard"",
+          ""CONCEPT_CLASS_ID"": ""Procedure"",
+          ""INVALID_REASON"": ""V""
+        },
+        ""includeMapped"": false,
+        ""includeDescendants"": true
+      },
+      {
+        ""isExcluded"": true,
+        ""concept"": {
+          ""INVALID_REASON_CAPTION"": ""Valid"",
+          ""CONCEPT_ID"": 4353715,
+          ""STANDARD_CONCEPT"": ""S"",
+          ""CONCEPT_CODE"": ""250870006"",
+          ""VOCABULARY_ID"": ""SNOMED"",
+          ""CONCEPT_NAME"": ""Ventilator finding"",
+          ""DOMAIN_ID"": ""Observation"",
+          ""STANDARD_CONCEPT_CAPTION"": ""Standard"",
+          ""CONCEPT_CLASS_ID"": ""Clinical Finding"",
+          ""INVALID_REASON"": ""V""
+        },
+        ""includeMapped"": false,
+        ""includeDescendants"": false
+      },
+      {
+        ""isExcluded"": false,
+        ""concept"": {
+          ""INVALID_REASON_CAPTION"": ""Valid"",
+          ""CONCEPT_ID"": 44791135,
+          ""STANDARD_CONCEPT"": ""S"",
+          ""CONCEPT_CODE"": ""231821000000109"",
+          ""VOCABULARY_ID"": ""SNOMED"",
+          ""CONCEPT_NAME"": ""Ventilatory support"",
+          ""DOMAIN_ID"": ""Procedure"",
+          ""STANDARD_CONCEPT_CAPTION"": ""Standard"",
+          ""CONCEPT_CLASS_ID"": ""Procedure"",
+          ""INVALID_REASON"": ""V""
+        },
+        ""includeMapped"": false,
+        ""includeDescendants"": true
+      },
+      {
+        ""isExcluded"": true,
+        ""concept"": {
+          ""INVALID_REASON_CAPTION"": ""Valid"",
+          ""CONCEPT_ID"": 4072633,
+          ""STANDARD_CONCEPT"": ""S"",
+          ""CONCEPT_CODE"": ""243174005"",
+          ""VOCABULARY_ID"": ""SNOMED"",
+          ""CONCEPT_NAME"": ""Weaning from mechanically assisted ventilation"",
+          ""DOMAIN_ID"": ""Procedure"",
+          ""STANDARD_CONCEPT_CAPTION"": ""Standard"",
+          ""CONCEPT_CLASS_ID"": ""Procedure"",
+          ""INVALID_REASON"": ""V""
+        },
+        ""includeMapped"": false,
+        ""includeDescendants"": false
+      }
+    ]},
+    ""name"": ""[jskm] ventilator care"",
+    ""id"": 1
+  }],
+  ""cdmVersionRange"": "">=5.0.0"",
+  ""CensoringCriteria"": [],
+  ""QualifiedLimit"": {""Type"": ""First""},
+  ""InclusionRules"": [],
+  ""PrimaryCriteria"": {
+    ""CriteriaList"": [{""ProcedureOccurrence"": {
+      ""ProcedureType"": null,
+      ""CorrelatedCriteria"": null,
+      ""CodesetId"": 1,
+      ""ProcedureSourceConcept"": null,
+      ""Quantity"": null,
+      ""ProviderSpecialty"": null,
+      ""Gender"": null,
+      ""ProcedureTypeExclude"": false,
+      ""VisitType"": null,
+      ""First"": null,
+      ""OccurrenceStartDate"": null,
+      ""Modifier"": null,
+      ""Age"": null
+    }}],
+    ""PrimaryCriteriaLimit"": {""Type"": ""First""},
+    ""ObservationWindow"": {
+      ""PostDays"": 0,
+      ""PriorDays"": 0
+    }
+  }
+}"
